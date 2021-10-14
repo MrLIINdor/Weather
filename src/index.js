@@ -5,7 +5,7 @@ import './index.css';
 
 ReactDOM.render(
   
-  <Weat/>,
+  <Weat />,
 
   document.querySelector('#main')
 );
