@@ -51,7 +51,7 @@ class Weat extends React.Component{
 
     Ran(){
         const KEY = "ffab31f93b27f5216d5b88a6e908a6e7",
-            URL_BASE = "http://api.openweathermap.org/data/2.5/"
+            URL_BASE = "https://api.openweathermap.org/data/2.5/"
             
 
         fetch(`${URL_BASE}weather?q=${this.state.nameCity}&units=metric&APPID=${KEY}`)
